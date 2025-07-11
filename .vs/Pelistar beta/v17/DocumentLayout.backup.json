@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Code\\C#\\Pelistar beta\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5ED75F3-2B24-4FC1-8C56-0F03B9FF17AE}|Pelistar beta.csproj|e:\\code\\c#\\pelistar beta\\clases\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5ED75F3-2B24-4FC1-8C56-0F03B9FF17AE}|Pelistar beta.csproj|solutionrelative:clases\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5ED75F3-2B24-4FC1-8C56-0F03B9FF17AE}|Pelistar beta.csproj|e:\\code\\c#\\pelistar beta\\frminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5ED75F3-2B24-4FC1-8C56-0F03B9FF17AE}|Pelistar beta.csproj|solutionrelative:frminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5ED75F3-2B24-4FC1-8C56-0F03B9FF17AE}|Pelistar beta.csproj|E:\\Code\\C#\\Pelistar beta\\frminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A5ED75F3-2B24-4FC1-8C56-0F03B9FF17AE}|Pelistar beta.csproj|solutionrelative:frminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5ED75F3-2B24-4FC1-8C56-0F03B9FF17AE}|Pelistar beta.csproj|e:\\code\\c#\\pelistar beta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5ED75F3-2B24-4FC1-8C56-0F03B9FF17AE}|Pelistar beta.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "E:\\Code\\C#\\Pelistar beta\\Clases\\Usuario.cs",
+              "RelativeDocumentMoniker": "Clases\\Usuario.cs",
+              "ToolTip": "E:\\Code\\C#\\Pelistar beta\\Clases\\Usuario.cs",
+              "RelativeToolTip": "Clases\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T12:17:47.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmInicioSesion.cs",
+              "DocumentMoniker": "E:\\Code\\C#\\Pelistar beta\\frmInicioSesion.cs",
+              "RelativeDocumentMoniker": "frmInicioSesion.cs",
+              "ToolTip": "E:\\Code\\C#\\Pelistar beta\\frmInicioSesion.cs",
+              "RelativeToolTip": "frmInicioSesion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T12:17:38.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmInicioSesion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Code\\C#\\Pelistar beta\\frmInicioSesion.cs",
+              "RelativeDocumentMoniker": "frmInicioSesion.cs",
+              "ToolTip": "E:\\Code\\C#\\Pelistar beta\\frmInicioSesion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmInicioSesion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T12:17:34.824Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Code\\C#\\Pelistar beta\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Code\\C#\\Pelistar beta\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T12:16:28.288Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
