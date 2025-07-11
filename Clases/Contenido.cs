@@ -28,17 +28,17 @@ namespace Pelistar.Clases
             Estado = estado;
         }
 
-        public void CambiarEstado(Estado e)
+        public virtual void CambiarEstado(Estado e)
         {
             Estado = e;
         }
 
-        public void MarcarComoFavorito()
+        public virtual void MarcarComoFavorito()
         {
             EsFavorito = true;
         }
 
-        public void QuitarDeFavoritos()
+        public virtual void QuitarDeFavoritos()
         {
             EsFavorito = false;
         }
