@@ -12,19 +12,22 @@ namespace Pelistar.Clases
             DuracionMinutos = duracionMinutos;
         }
 
-        public override void cambiarEstado()
-        {
-            base.cambiarEstado();
-        }
+        public override void cambiarEstado(Estado nuevoEstado)
+            {
+                estado = nuevoEstado;
+                Console.WriteLine($"[Pelicula] Estado cambiado a: {estado}");
+            }
 
-        public override void marcarComoFavorito()
-        {
-            base.marcarComoFavorito();
-        }
+            public override void marcarComoFavorito()
+            {
+                esFavorito = true;
+                Console.WriteLine("[Pelicula] ¡Esta película es ahora tu favorita!");
+            }
 
-        public override void quitarDeFavoritos()
-        {
-            base.quitarDeFavoritos();
+            public override void quitarDeFavoritos()
+            {
+                esFavorito = false;
+                Console.WriteLine("[Pelicula] Se quitó de favoritos.");
+            }
         }
-    }
 }

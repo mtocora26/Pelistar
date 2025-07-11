@@ -28,19 +28,22 @@ namespace Pelistar.Clases
             Estado = estado;
         }
 
-        public virtual void cambiarEstado()
+    public virtual void cambiarEstado(Estado nuevoEstado)
         {
-            base.cambiarEstado();
+            estado = nuevoEstado;
+            Console.WriteLine($"[Contenido] El estado se cambió a: {estado}");
         }
 
         public virtual void marcarComoFavorito()
         {
-            base.marcarComoFavorito();
+            esFavorito = true;
+            Console.WriteLine("[Contenido] Marcado como favorito.");
         }
 
         public virtual void quitarDeFavoritos()
         {
-            base.quitarDeFavoritos();
+            esFavorito = false;
+            Console.WriteLine("[Contenido] Quitado de favoritos.");
         }
     }
 }

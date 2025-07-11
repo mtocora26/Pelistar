@@ -13,19 +13,22 @@ namespace Pelistar.Clases
             Temporadas = temporadas;
             EpisodiosTotales = episodiosTotales;
         }
-           public override void cambiarEstado()
+    public override void cambiarEstado(Estado nuevoEstado)
         {
-            base.cambiarEstado();
+            estado = nuevoEstado;
+            Console.WriteLine($"[Serie] El estado de la serie cambió a: {estado}");
         }
 
         public override void marcarComoFavorito()
         {
-            base.marcarComoFavorito();
+            esFavorito = true;
+            Console.WriteLine("[Serie] Has marcado la serie como favorita.");
         }
 
         public override void quitarDeFavoritos()
         {
-            base.quitarDeFavoritos();
+            esFavorito = false;
+            Console.WriteLine("[Serie] La serie ya no está en favoritos.");
         }
     }
-}
+}    
