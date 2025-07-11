@@ -28,19 +28,19 @@ namespace Pelistar.Clases
             Estado = estado;
         }
 
-        public virtual void CambiarEstado(Estado e)
+        public virtual void cambiarEstado()
         {
-            Estado = e;
+            base.cambiarEstado();
         }
 
-        public virtual void MarcarComoFavorito()
+        public virtual void marcarComoFavorito()
         {
-            EsFavorito = true;
+            base.marcarComoFavorito();
         }
 
-        public virtual void QuitarDeFavoritos()
+        public virtual void quitarDeFavoritos()
         {
-            EsFavorito = false;
+            base.quitarDeFavoritos();
         }
     }
 }

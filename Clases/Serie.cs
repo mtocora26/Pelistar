@@ -13,19 +13,19 @@ namespace Pelistar.Clases
             Temporadas = temporadas;
             EpisodiosTotales = episodiosTotales;
         }
-           public override void CambiarEstado(Estado e)
+           public override void cambiarEstado()
         {
-            Estado = e;
+            base.cambiarEstado();
         }
 
-        public override void MarcarComoFavorito()
+        public override void marcarComoFavorito()
         {
-            EsFavorito = true;
+            base.marcarComoFavorito();
         }
 
-        public override void QuitarDeFavoritos()
+        public override void quitarDeFavoritos()
         {
-            EsFavorito = false;
+            base.quitarDeFavoritos();
         }
     }
 }
